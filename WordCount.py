@@ -4,7 +4,8 @@
 #Assignment:
 
 def main():
-  textFile = open("gettysberg.txt", 'r')
+  filename = input("pleast type the name of your file: ")
+  textFile = open(filename, 'r')
   linecount = 0
   wordcount = 0
   lettercount = 0
